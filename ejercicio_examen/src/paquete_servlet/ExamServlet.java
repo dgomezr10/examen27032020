@@ -11,7 +11,10 @@ public class ExamServlet extends HttpServlet{
 	public void doGet (HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException{
 		res.setContentType("text/html");
 		PrintWriter pw = res.getWriter();
-				
+		
+		int i = 2;
+		i++;
+		
 		pw.println("<html><body>");
 		pw.println("David Gómez Rus");
 		pw.println("</body></html>");
