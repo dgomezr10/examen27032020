@@ -4,9 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.jupiter.api.*;
 
-import EjercicioJunit;
-
-
 public class Tests {
 	static EjercicioJunit e;
 	@BeforeAll
